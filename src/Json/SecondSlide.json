@@ -5,7 +5,7 @@
         "fallecimiento": "19 de Noviembre de 1925",
         "educacion": {
             "name": "Ecole des Mines de Saint Etienne (1858-1860)",
-            "icon": "https://foultrip.github.io/Slides_fayolism/iconSchool.png"
+            "icon": "https://foultrip.github.io/Slides_Fayolism/iconSchool.png"
         },
         "libros": [
             "Administración industrial y general",
@@ -21,5 +21,5 @@
         ],
         "conyuge": "Adelade Celeste Marie Saule"
     },
-    "icon": "https://foultrip.github.io/Slides_fayolism/fayolPerfil.png"
+    "icon": "https://foultrip.github.io/Slides_Fayolism/fayolPerfil.png"
 }
