@@ -1,0 +1,62 @@
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.containerFirstSlide {
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
+}
+
+.centerFirstSlide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boxTexts {
+  display: grid;
+  place-content: center;
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+.centerBoxTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.iconBoxSlide {
+  display: grid;
+  place-content: center;
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+.titleTopic {
+    font-weight: 400;
+}
+
+.iconSlide01 {
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(5px 5px 10px #000000);
+}

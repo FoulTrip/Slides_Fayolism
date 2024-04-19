@@ -1,0 +1,160 @@
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.containerSeconSlide {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: row;
+
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
+}
+
+.biographycAuthor {
+  flex-basis: 400px;
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+}
+
+.centerBiographycAuthor {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.centerDateAuthor {
+  display: grid;
+  place-content: center;
+}
+
+.boxIconAuthor {
+  flex-basis: 400px;
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+}
+
+.dateAuthor {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.boxBirth {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.containerSchool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.centerInfoSchool {
+  flex-basis: 100px;
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+  background: #d2d2d2;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.supraCenterInfoSchool {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.boxCenterIconSchool {
+  display: grid;
+  place-content: center;
+}
+
+.iconSchool {
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.centerInfoBooks {
+  flex-basis: 100px;
+  flex-grow: 1;
+  display: grid;
+  place-content: center;
+  background: #d2d2d2;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.supraCenterInfoBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.containerBook {
+  display: grid;
+  place-content: center;
+}
+
+.centerListBooks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.centerContainerBook {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.familyContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnInfo {
+  display: grid;
+  place-content: center;
+}
+
+.iconBook, .iconBith {
+  filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.boxConyuge {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.titleFamily {
+  margin-top: 1em;
+  margin-bottom: 10px;
+}
+
+.centerBtnInfo {
+  display: flex;
+  flex-direction: row;
+}

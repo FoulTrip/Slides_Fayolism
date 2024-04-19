@@ -1,0 +1,64 @@
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.containerThreeSlide {
+  min-height: 100dvh;
+  display: grid;
+  place-content: center;
+
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 20% cover 30%;
+  animation-fill-mode: both;
+}
+
+.centerContainerSlide {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+}
+
+.listGroups {
+  display: grid;
+  place-content: center;
+  gap: 10px;
+}
+
+.subBoxFayo {
+  display: grid;
+  place-content: center;
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+.boxFayo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #dfdfdf;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.namesGroup {
+  padding: 10px;
+  background: #bcbcbc;
+  border-radius: 8px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}

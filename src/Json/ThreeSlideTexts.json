@@ -1,0 +1,17 @@
+{
+    "teoria_fayolismo": {
+        "descripcion": "La teoría de Fayolismo sugiere que todas las actividades de importancia sobre el manejo industrial pueden ser divididas en seis grupos:",
+        "grupos": [
+            {
+                "name": "Actividades técnicas (producción, manufactura, adaptación)"
+            },
+            {
+                "name": "Actividades comerciales (comprar, vender, intercambiar)"
+            },
+            {
+                "name": "Actividades financieras (buscar el uso óptimo del capital)"
+            }
+        ],
+        "surgimiento": "El fayolismo surgió a principios del siglo XX debido a la necesidad de establecer principios y procesos de gestión que permitieran organizar el trabajo de manera eficiente en un contexto de crecimiento industrial. Henri Fayol, con su experiencia práctica y observaciones, desarrolló una teoría administrativa que proporcionaba un marco para la coordinación, organización y eficiencia en las empresas. Esto fue crucial en un momento en el que las empresas buscaban estándares y uniformidad para competir y enfrentar los desafíos de la Revolución Industrial."
+    }
+}

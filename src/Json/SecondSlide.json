@@ -1,0 +1,25 @@
+{
+    "henri_fayol": {
+        "nombre": "Henri Fayol",
+        "nacimiento": "29 de Julio de 1841, Estambul",
+        "fallecimiento": "19 de Noviembre de 1925",
+        "educacion": {
+            "name": "Ecole des Mines de Saint Etienne (1858-1860)",
+            "icon": "https://foultrip.github.io/Slides_fayolism/iconSchool.png"
+        },
+        "libros": [
+            "Administración industrial y general",
+            "Henri Fayol"
+        ],
+        "hijos": [
+            {
+                "name": "Henri Joseph Fayol"
+            },
+            {
+                "name": "Andre Fayol"
+            }
+        ],
+        "conyuge": "Adelade Celeste Marie Saule"
+    },
+    "icon": "https://foultrip.github.io/Slides_fayolism/fayolPerfil.png"
+}
